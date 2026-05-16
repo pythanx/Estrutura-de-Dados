@@ -2,9 +2,9 @@
 // Created by adm-g on 12/05/2026.
 //
 /*
-*Todo(a) estudante de programação que se preze deve saber, obrigatoriamente, utilizar estruturas de dados para resolver problemas diversos. Assim sendo, considere uma pilha de inteiros com o seguinte estado inicial, na qual o topo aponta para o elemento 78:
-
-10, 15, 22, 17, 25, 78 <= topo
+ *Todo(a) estudante de programação que se preze deve saber, *obrigatoriamente, utilizar estruturas de dados para resolver problemas diversos. Assim sendo, considere uma pilha de inteiros com o seguinte estado inicial, na qual o topo aponta para o elemento 78:
+ *
+*10, 15, 22, 17, 25, 78 <= topo
 
 Sabendo que as funções Push(int dado) e Pop() são as funções de inserção e remoção na pilha, respectivamente, imagine que, a partir do estado inicial da pilha, as seguintes operações são invocadas, respeitando a ordem a seguir:
 
@@ -22,6 +22,8 @@ Fonte: o autor.
 Dessa forma, podemos dizer que o estado final da pilha será algo como:
  */
 
+
+
 // Bibliotecas
 #include <stdio.h>
 #include <stdlib.h>
@@ -31,13 +33,13 @@ Dessa forma, podemos dizer que o estado final da pilha será algo como:
 #define tam 6
 
 // Estrutura da pilha
-struct pilha {
+struct livros {
  int dados[tam];
  int topo;
 };
 
 // Variaveis
-struct pilha p;
+struct livros p;
 
 //Protótipos
 void pop();

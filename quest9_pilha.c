@@ -19,13 +19,13 @@ Assinale o elemento que será o próximo a ser removido se for chamada a funçã
 #define tam 20
 
 // Estrutura da pilha
-struct pilha {
+struct livros {
     int topo;
     int dados[tam];
 };
 
 // Variáveis
-struct pilha t;
+struct livros t;
 
 //Prototipos
 void pop();
