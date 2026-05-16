@@ -10,7 +10,7 @@
  *
  * @author Giselle Oliveira (GitHub: @pythanx)
  * @date 15/05/2026
- * @see https://github.com
+ * @see https://github.com/pythanx/Estrutura-de-Dados
  */
 
 #include <stdio.h>
